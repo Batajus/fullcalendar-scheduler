@@ -12,7 +12,7 @@ NOTE: ts entrypoints should be mirrored in tsconfig.json
 const MODULES = {
   'dist/scheduler': './src/main.ts',
   'dist/scheduler.css': './src/main.scss',
-  'tmp/automated-tests': './tests/automated/index.js'
+  // 'tmp/automated-tests': './tests/automated/index.js'
 }
 
 const BANNER =
