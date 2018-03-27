@@ -1,6 +1,6 @@
-import { InteractiveDateComponent } from 'fullcalendar'
+import { InteractiveDateComponent } from 'cgm_de_fullcalendar'
 
-declare module 'fullcalendar/InteractiveDateComponent' {
+declare module 'cgm_de_fullcalendar/InteractiveDateComponent' {
   interface Default {
     allowCrossResource: boolean
     isEventDefResourceEditable(eventDef): boolean

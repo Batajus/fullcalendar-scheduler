@@ -13,13 +13,13 @@ module.exports = function(config) {
       'node_modules/components-jqueryui/jquery-ui.js',
       'node_modules/components-jqueryui/themes/cupertino/jquery-ui.css',
 
-      'fullcalendar/dist/fullcalendar.js',
-      'fullcalendar/dist/locale-all.js',
-      'fullcalendar/dist/fullcalendar.css',
+      'cgm_de_fullcalendar/dist/cgm_de_fullcalendar.js',
+      'cgm_de_fullcalendar/dist/locale-all.js',
+      'cgm_de_fullcalendar/dist/cgm_de_fullcalendar.css',
 
       // main lib files
-      'dist/scheduler.js',
-      'dist/scheduler.css',
+      'dist/cgm_de_scheduler.js',
+      'dist/cgm_de_scheduler.css',
 
       // dependencies for tests
       'node_modules/native-promise-only/lib/npo.src.js',

@@ -1,4 +1,4 @@
-import { EventSource } from 'fullcalendar'
+import { EventSource } from 'cgm_de_fullcalendar'
 
 // defineStandardProps won't work :(
 // TODO: find a better way

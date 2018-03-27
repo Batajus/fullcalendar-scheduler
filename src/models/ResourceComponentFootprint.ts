@@ -1,4 +1,4 @@
-import { ComponentFootprint } from 'fullcalendar'
+import { ComponentFootprint } from 'cgm_de_fullcalendar'
 
 
 export default class ResourceComponentFootprint extends ComponentFootprint {

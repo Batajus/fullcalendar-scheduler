@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { htmlEscape } from 'fullcalendar'
+import { htmlEscape } from 'cgm_de_fullcalendar'
 import EventRow from './EventRow'
 
 /*

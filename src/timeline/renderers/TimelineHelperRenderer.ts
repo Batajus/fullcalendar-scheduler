@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { HelperRenderer } from 'fullcalendar'
+import { HelperRenderer } from 'cgm_de_fullcalendar'
 
 
 export default class TimelineHelperRenderer extends HelperRenderer {

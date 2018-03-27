@@ -1,4 +1,4 @@
-import { AgendaView } from 'fullcalendar'
+import { AgendaView } from 'cgm_de_fullcalendar'
 import { default as ResourceViewMixin, ResourceViewInterface } from '../ResourceViewMixin'
 import ResourceDayGrid from '../resource-basic/ResourceDayGrid'
 import ResourceTimeGrid from './ResourceTimeGrid'

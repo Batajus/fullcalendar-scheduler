@@ -1,6 +1,6 @@
 {
-  "name": "fullcalendar-scheduler",
-  "title": "FullCalendar Scheduler",
+  "name": "cgm_de_fullcalendar-scheduler",
+  "title": "CGM_DE_FullCalendar Scheduler",
   "description": "A premium add-on to FullCalendar for displaying events and resources",
   "homepage": "https://fullcalendar.io/scheduler/",
   "repository": {
@@ -12,11 +12,11 @@
   "dependencies": {
     "jquery": "2 - 3",
     "moment": "^2.20.1",
-    "fullcalendar": "~3.8.1"
+    "cgm_de_fullcalendar": "^0.0.1"
   },
   "main": [
-    "dist/scheduler.js",
-    "dist/scheduler.css"
+    "dist/cgm_de_scheduler.js",
+    "dist/cgm_de_scheduler.css"
   ],
   "ignore": [
     "*",

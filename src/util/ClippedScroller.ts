@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { getScrollbarWidths } from 'fullcalendar'
+import { getScrollbarWidths } from 'cgm_de_fullcalendar'
 import EnhancedScroller from './EnhancedScroller'
 
 /*

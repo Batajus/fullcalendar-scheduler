@@ -1,6 +1,6 @@
-import { EventDefMutation } from 'fullcalendar'
+import { EventDefMutation } from 'cgm_de_fullcalendar'
 
-declare module 'fullcalendar/EventDefMutation' {
+declare module 'cgm_de_fullcalendar/EventDefMutation' {
   interface Default {
     oldResourceId: any
     newResourceId: any

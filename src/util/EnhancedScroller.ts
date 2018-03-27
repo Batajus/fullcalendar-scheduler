@@ -3,7 +3,7 @@ import {
   Scroller, debounce, preventDefault,
   EmitterMixin, EmitterInterface,
   ListenerMixin, ListenerInterface
-} from 'fullcalendar'
+} from 'cgm_de_fullcalendar'
 
 let rtlScrollSystem = null
 

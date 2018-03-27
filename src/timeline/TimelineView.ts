@@ -6,7 +6,7 @@ import {
   isInt, divideRangeByDuration, htmlEscape, computeGreatestUnit,
   divideDurationByDuration, multiplyDuration, StandardInteractionsMixin,
   BusinessHourRenderer
-} from 'fullcalendar'
+} from 'cgm_de_fullcalendar'
 import ClippedScroller from '../util/ClippedScroller'
 import ScrollerCanvas from '../util/ScrollerCanvas'
 import ScrollJoiner from '../util/ScrollJoiner'

@@ -1,4 +1,4 @@
-import { intersectRects } from 'fullcalendar'
+import { intersectRects } from 'cgm_de_fullcalendar'
 
 
 export default class ScrollFollowerSprite {

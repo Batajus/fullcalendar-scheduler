@@ -1,4 +1,4 @@
-import { EventDragging } from 'fullcalendar'
+import { EventDragging } from 'cgm_de_fullcalendar'
 
 /*
 TODO: use pubsub instead?

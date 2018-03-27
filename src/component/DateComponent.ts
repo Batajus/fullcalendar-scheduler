@@ -1,7 +1,7 @@
-import { DateComponent, EventFootprint } from 'fullcalendar'
+import { DateComponent, EventFootprint } from 'cgm_de_fullcalendar'
 import ResourceComponentFootprint from '../models/ResourceComponentFootprint'
 
-declare module 'fullcalendar/DateComponent' {
+declare module 'cgm_de_fullcalendar/DateComponent' {
   interface Default {
     isResourceFootprintsEnabled: boolean
     renderResources(resources)

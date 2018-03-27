@@ -1,6 +1,6 @@
-import { EventRenderer } from 'fullcalendar'
+import { EventRenderer } from 'cgm_de_fullcalendar'
 
-declare module 'fullcalendar/EventRenderer' {
+declare module 'cgm_de_fullcalendar/EventRenderer' {
   interface Default {
     designatedResource: any
     currentResource: any

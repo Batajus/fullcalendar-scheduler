@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { DateComponent, capitaliseFirstLetter, proxy } from 'fullcalendar'
+import { DateComponent, capitaliseFirstLetter, proxy } from 'cgm_de_fullcalendar'
 import { getOwnCells } from '../../util/util'
 
 /*

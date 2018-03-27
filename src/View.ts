@@ -1,7 +1,7 @@
-import { View } from 'fullcalendar'
+import { View } from 'cgm_de_fullcalendar'
 import { processLicenseKey } from './license'
 
-declare module 'fullcalendar/View' {
+declare module 'cgm_de_fullcalendar/View' {
   interface Default {
     canHandleSpecificResources: boolean
     watchResources()

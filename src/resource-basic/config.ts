@@ -1,4 +1,4 @@
-import { getViewConfig } from 'fullcalendar'
+import { getViewConfig } from 'cgm_de_fullcalendar'
 import ResourceBasicView from './ResourceBasicView'
 import ResourceMonthView from './ResourceMonthView'
 

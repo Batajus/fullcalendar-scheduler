@@ -49,10 +49,10 @@ gulp.task('test-side-effects:install', [ 'webpack' ], function(done) {
     'tests/gpl-key.js' // so that the warning message doesn't show up
   ])
     .pipe(
-      gulp.dest('fullcalendar/tmp/test-side-effects/')
+      gulp.dest('cgm_de_fullcalendar/tmp/test-side-effects/')
     )
 })
 
 gulp.task('test-side-effects:clean', function(done) {
-  return del([ 'fullcalendar/tmp/test-side-effects/' ])
+  return del([ 'cgm_de_fullcalendar/tmp/test-side-effects/' ])
 })

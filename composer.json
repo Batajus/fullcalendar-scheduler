@@ -1,5 +1,5 @@
 {
-  "name": "fullcalendar/fullcalendar-scheduler",
+  "name": "cgm_de_fullcalendar/cgm_de_fullcalendar-scheduler",
   "type": "component",
   "description": "A premium add-on to FullCalendar for displaying events and resources",
   "keywords": [
@@ -21,19 +21,19 @@
     "robloach/component-installer": "*",
     "components/jquery": "2 - 3",
     "moment/moment": "^2.20.1",
-    "fullcalendar/fullcalendar": "~3.8.1"
+    "cgm_de_fullcalendar/cgm_de_fullcalendar": "^0.0.0"
   },
   "extra": {
     "component": {
       "scripts": [
-        "dist/scheduler.js"
+        "dist/cgm_de_scheduler.js"
       ],
       "styles": [
-        "dist/scheduler.css"
+        "dist/cgm_de_scheduler.css"
       ],
       "files": [
-        "dist/scheduler.min.js",
-        "dist/scheduler.min.css"
+        "dist/cgm_de_scheduler.min.js",
+        "dist/cgm_de_scheduler.min.css"
       ]
     }
   }

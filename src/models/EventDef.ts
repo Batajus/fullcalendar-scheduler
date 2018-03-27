@@ -1,8 +1,8 @@
 import * as $ from 'jquery'
-import { EventDef, removeExact } from 'fullcalendar'
+import { EventDef, removeExact } from 'cgm_de_fullcalendar'
 import Resource from './Resource'
 
-declare module 'fullcalendar/EventDef' {
+declare module 'cgm_de_fullcalendar/EventDef' {
   interface Default {
     resourceIds: any
     resourceEditable: boolean

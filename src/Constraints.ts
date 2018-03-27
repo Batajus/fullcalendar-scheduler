@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { Constraints, EventFootprint } from 'fullcalendar'
+import { Constraints, EventFootprint } from 'cgm_de_fullcalendar'
 import Resource from './models/Resource'
 import ResourceComponentFootprint from './models/ResourceComponentFootprint'
 

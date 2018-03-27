@@ -1,4 +1,4 @@
-import { EventResizing } from 'fullcalendar'
+import { EventResizing } from 'cgm_de_fullcalendar'
 
 /*
 TODO: use pubsub instead?

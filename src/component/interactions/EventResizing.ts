@@ -1,4 +1,4 @@
-import { EventResizing } from 'fullcalendar'
+import { EventResizing } from 'cgm_de_fullcalendar'
 
 // references to pre-monkeypatched methods
 const origMethods = {

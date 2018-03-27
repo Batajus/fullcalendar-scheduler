@@ -10,8 +10,8 @@ however, all other types of modules should.
 NOTE: ts entrypoints should be mirrored in tsconfig.json
 */
 const MODULES = {
-  'dist/scheduler': './src/main.ts',
-  'dist/scheduler.css': './src/main.scss',
+  'dist/cgm_de_scheduler': './src/main.ts',
+  'dist/cgm_de_scheduler.css': './src/main.scss',
   // 'tmp/automated-tests': './tests/automated/index.js'
 }
 
@@ -32,11 +32,11 @@ module.exports = {
       root: 'jQuery'
     },
     moment: 'moment',
-    fullcalendar: {
-      commonjs: 'fullcalendar',
-      commonjs2: 'fullcalendar',
-      amd: 'fullcalendar',
-      root: 'FullCalendar'
+    cgm_de_fullcalendar: {
+      commonjs: 'cgm_de_fullcalendar',
+      commonjs2: 'cgm_de_fullcalendar',
+      amd: 'cgm_de_fullcalendar',
+      root: 'CGM_DE_FullCalendar'
     }
   },
 
@@ -48,7 +48,7 @@ module.exports = {
       'tslib': path.resolve(__dirname, 'src/tslib-lite.js'),
 
       // when tests access core test libs, don't use NPM package, use checkout
-      'fullcalendar/tests': path.resolve(__dirname, 'fullcalendar/tests')
+      'cgm_de_fullcalendar/tests': path.resolve(__dirname, 'cgm_de_fullcalendar/tests')
     }
   },
 

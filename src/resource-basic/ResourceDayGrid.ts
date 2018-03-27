@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { DayGrid } from 'fullcalendar'
+import { DayGrid } from 'cgm_de_fullcalendar'
 import { default as ResourceDayTableMixin, ResourceDayTableInterface } from '../component/ResourceDayTableMixin'
 import ResourceComponentFootprint from '../models/ResourceComponentFootprint'
 

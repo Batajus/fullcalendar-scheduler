@@ -1,4 +1,4 @@
-import * as exportHooks from 'fullcalendar'
+import * as exportHooks from 'cgm_de_fullcalendar'
 import ResourceAgendaView from './resource-agenda/ResourceAgendaView'
 import ResourceBasicView from './resource-basic/ResourceBasicView'
 import ResourceMonthView from './resource-basic/ResourceMonthView'

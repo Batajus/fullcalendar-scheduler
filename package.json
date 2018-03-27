@@ -1,5 +1,5 @@
 {
-  "name": "fullcalendar-scheduler",
+  "name": "cgm_de_fullcalendar-scheduler",
   "title": "FullCalendar Scheduler",
   "description": "A premium add-on to FullCalendar for displaying events and resources",
   "homepage": "https://fullcalendar.io/scheduler/",
@@ -10,13 +10,13 @@
   "license": "SEE LICENSE IN LICENSE.md",
   "copyright": "2018 Adam Shaw",
   "dependencies": {
-    "fullcalendar": "~3.8.1",
-    "jquery": "2 - 3",
-    "moment": "^2.20.1"
+    "cgm_de_fullcalendar": ">=0.0.3"
   },
-  "version": "0.0.0",
-  "releaseDate": "1970-01-01",
+  "version": "0.0.6",
+  "releaseDate": "2018-03-15",
   "devDependencies": {
+    "jquery": "2 - 3",
+    "moment": "^2.20.1",
     "@types/jquery": "2.0.47",
     "awesome-typescript-loader": "^3.5.0",
     "components-jqueryui": "github:components/jqueryui",
@@ -66,8 +66,8 @@
     "webpack-stream": "^4.0.2",
     "yargs": "^4.6.0"
   },
-  "main": "dist/scheduler.js",
-  "types": "dist/scheduler.d.ts",
+  "main": "dist/cgm_de_scheduler.js",
+  "types": "dist/cgm_de_scheduler.d.ts",
   "files": [
     "dist/*.js",
     "dist/*.css",
