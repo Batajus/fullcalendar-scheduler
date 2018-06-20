@@ -1,5 +1,5 @@
 {
-  "name": "cgm_de_fullcalendar-scheduler",
+  "name": "@medical-cloud/cgm_de_fullcalendar-scheduler",
   "title": "FullCalendar Scheduler",
   "description": "A premium add-on to FullCalendar for displaying events and resources",
   "homepage": "https://fullcalendar.io/scheduler/",
@@ -10,10 +10,10 @@
   "license": "SEE LICENSE IN LICENSE.md",
   "copyright": "2018 Adam Shaw",
   "dependencies": {
-    "cgm_de_fullcalendar": ">=0.0.3"
+    "@medical-cloud/cgm_de_fullcalendar": ">=0.0.5"
   },
-  "version": "0.0.6",
-  "releaseDate": "2018-03-15",
+  "version": "0.0.8",
+  "releaseDate": "2018-06-19",
   "devDependencies": {
     "jquery": "2 - 3",
     "moment": "^2.20.1",

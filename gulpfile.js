@@ -9,6 +9,12 @@ require('./tasks/test')
 require('./tasks/lint')
 require('./tasks/bump')
 
+// CGM: copy files to seperate build folder for clean build structure
+gulp.task('copyBuild', ['minify'], function() {
+  return gulp.src(['./package.json','./dist/**/*'], { base: './' })
+  .pipe(gulp.dest('./build/'))
+})
+
 // when running just `gulp`
 gulp.task('default', [ 'dist' ])
 
@@ -28,7 +34,8 @@ gulp.task('watch', [
 gulp.task('dist', [
   'webpack',
   'ts-types',
-  'minify'
+  'minify',
+  'copyBuild'
 ])
 
 // like dist, but runs tests and linting, and generates archive
@@ -40,5 +47,5 @@ gulp.task('release', [
 ])
 
 gulp.task('clean', function() {
-  return del([ 'dist/', 'tmp/', '.awcache/' ])
+  return del([ 'dist/', 'tmp/', '.awcache/', 'build/' ])
 })
