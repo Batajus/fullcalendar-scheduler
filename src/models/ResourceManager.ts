@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { Class, Promise, EmitterMixin, EmitterInterface, BusinessHourGenerator } from 'cgm_de_fullcalendar'
+import { Class, Promise, EmitterMixin, EmitterInterface, BusinessHourGenerator } from '@medical-cloud/cgm_de_fullcalendar'
 
 
 export default class ResourceManager extends Class {

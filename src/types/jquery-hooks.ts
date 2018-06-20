@@ -1,4 +1,4 @@
-import { EventObjectInput } from 'cgm_de_fullcalendar'
+import { EventObjectInput } from '@medical-cloud/cgm_de_fullcalendar'
 import { ResourceInput } from './input-types'
 
 declare global {

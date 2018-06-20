@@ -3,7 +3,7 @@ import {
   Scroller, debounce, preventDefault,
   EmitterMixin, EmitterInterface,
   ListenerMixin, ListenerInterface
-} from 'cgm_de_fullcalendar'
+} from '@medical-cloud/cgm_de_fullcalendar'
 
 let rtlScrollSystem = null
 

@@ -1,4 +1,4 @@
-import { DateSelecting } from 'cgm_de_fullcalendar'
+import { DateSelecting } from '@medical-cloud/cgm_de_fullcalendar'
 import ResourceComponentFootprint from '../../models/ResourceComponentFootprint'
 
 // references to pre-monkeypatched methods

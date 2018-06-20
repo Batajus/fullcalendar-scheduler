@@ -1,4 +1,4 @@
-import { BusinessHourRenderer } from 'cgm_de_fullcalendar'
+import { BusinessHourRenderer } from '@medical-cloud/cgm_de_fullcalendar'
 import RowParent from './RowParent'
 import TimelineFillRenderer from '../../timeline/renderers/TimelineFillRenderer'
 import TimelineEventRenderer from '../../timeline/renderers/TimelineEventRenderer'

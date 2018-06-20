@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { Mixin, DayTableMixin, EventFootprint, parseFieldSpecs, compareByFieldSpecs, htmlEscape } from 'cgm_de_fullcalendar'
+import { Mixin, DayTableMixin, EventFootprint, parseFieldSpecs, compareByFieldSpecs, htmlEscape } from '@medical-cloud/cgm_de_fullcalendar'
 import ResourceComponentFootprint from '../models/ResourceComponentFootprint'
 
 export interface ResourceDayTableInterface {

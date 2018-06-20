@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { getContentRect, getOuterRect } from 'cgm_de_fullcalendar'
+import { getContentRect, getOuterRect } from '@medical-cloud/cgm_de_fullcalendar'
 import ScrollFollowerSprite from './ScrollFollowerSprite'
 
 

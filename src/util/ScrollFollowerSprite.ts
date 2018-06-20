@@ -1,4 +1,4 @@
-import { intersectRects } from 'cgm_de_fullcalendar'
+import { intersectRects } from '@medical-cloud/cgm_de_fullcalendar'
 
 
 export default class ScrollFollowerSprite {

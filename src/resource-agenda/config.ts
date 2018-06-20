@@ -1,4 +1,4 @@
-import { getViewConfig } from 'cgm_de_fullcalendar'
+import { getViewConfig } from '@medical-cloud/cgm_de_fullcalendar'
 import ResourceAgendaView from './ResourceAgendaView'
 
 /*

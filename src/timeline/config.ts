@@ -1,4 +1,4 @@
-import { defineView } from 'cgm_de_fullcalendar'
+import { defineView } from '@medical-cloud/cgm_de_fullcalendar'
 import TimelineView from './TimelineView'
 
 defineView('timeline', {

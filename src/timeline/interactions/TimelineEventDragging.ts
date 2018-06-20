@@ -1,4 +1,4 @@
-import { EventDragging } from 'cgm_de_fullcalendar'
+import { EventDragging } from '@medical-cloud/cgm_de_fullcalendar'
 
 /*
 TODO: use pubsub instead?

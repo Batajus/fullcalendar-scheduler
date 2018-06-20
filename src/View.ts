@@ -1,7 +1,7 @@
-import { View } from 'cgm_de_fullcalendar'
+import { View } from '@medical-cloud/cgm_de_fullcalendar'
 import { processLicenseKey } from './license'
 
-declare module 'cgm_de_fullcalendar/View' {
+declare module '@medical-cloud/cgm_de_fullcalendar/View' {
   interface Default {
     canHandleSpecificResources: boolean
     watchResources()

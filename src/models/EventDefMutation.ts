@@ -1,6 +1,6 @@
-import { EventDefMutation } from 'cgm_de_fullcalendar'
+import { EventDefMutation } from '@medical-cloud/cgm_de_fullcalendar'
 
-declare module 'cgm_de_fullcalendar/EventDefMutation' {
+declare module '@medical-cloud/cgm_de_fullcalendar/EventDefMutation' {
   interface Default {
     oldResourceId: any
     newResourceId: any

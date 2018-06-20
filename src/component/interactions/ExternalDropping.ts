@@ -1,4 +1,4 @@
-import { ExternalDropping } from 'cgm_de_fullcalendar'
+import { ExternalDropping } from '@medical-cloud/cgm_de_fullcalendar'
 
 // references to pre-monkeypatched methods
 const origMethods = {

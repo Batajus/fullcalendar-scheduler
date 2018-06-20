@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { Constraints, EventFootprint } from 'cgm_de_fullcalendar'
+import { Constraints, EventFootprint } from '@medical-cloud/cgm_de_fullcalendar'
 import Resource from './models/Resource'
 import ResourceComponentFootprint from './models/ResourceComponentFootprint'
 

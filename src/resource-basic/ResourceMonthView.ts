@@ -1,4 +1,4 @@
-import { MonthView } from 'cgm_de_fullcalendar'
+import { MonthView } from '@medical-cloud/cgm_de_fullcalendar'
 import { default as ResourceViewMixin, ResourceViewInterface } from '../ResourceViewMixin'
 import ResourceDayGrid from './ResourceDayGrid'
 

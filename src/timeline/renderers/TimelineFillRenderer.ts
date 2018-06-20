@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { FillRenderer } from 'cgm_de_fullcalendar'
+import { FillRenderer } from '@medical-cloud/cgm_de_fullcalendar'
 
 
 export default class TimelineFillRenderer extends FillRenderer {
