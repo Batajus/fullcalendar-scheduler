@@ -1,4 +1,4 @@
-import { Calendar, getViewConfig } from '@medical-cloud/cgm_de_fullcalendar'
+import { Calendar, getViewConfig } from 'cgm_de_fullcalendar'
 import ResourceTimelineView from './ResourceTimelineView'
 
 getViewConfig('timeline').resourceClass = ResourceTimelineView

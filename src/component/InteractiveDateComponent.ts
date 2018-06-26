@@ -1,6 +1,6 @@
-import { InteractiveDateComponent } from '@medical-cloud/cgm_de_fullcalendar'
+import { InteractiveDateComponent } from 'cgm_de_fullcalendar'
 
-declare module '@medical-cloud/cgm_de_fullcalendar/InteractiveDateComponent' {
+declare module 'cgm_de_fullcalendar/InteractiveDateComponent' {
   interface Default {
     allowCrossResource: boolean
     isEventDefResourceEditable(eventDef): boolean

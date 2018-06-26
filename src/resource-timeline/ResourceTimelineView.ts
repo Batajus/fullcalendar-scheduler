@@ -1,7 +1,7 @@
 import * as $ from 'jquery'
 import {
   DragListener, CoordCache, parseFieldSpecs, compareByFieldSpecs, flexibleCompare
-} from '@medical-cloud/cgm_de_fullcalendar'
+} from 'cgm_de_fullcalendar'
 import ScrollJoiner from '../util/ScrollJoiner'
 import ResourceComponentFootprint from '../models/ResourceComponentFootprint'
 import { default as ResourceViewMixin, ResourceViewInterface } from '../ResourceViewMixin'

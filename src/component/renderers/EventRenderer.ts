@@ -1,6 +1,6 @@
-import { EventRenderer } from '@medical-cloud/cgm_de_fullcalendar'
+import { EventRenderer } from 'cgm_de_fullcalendar'
 
-declare module '@medical-cloud/cgm_de_fullcalendar/EventRenderer' {
+declare module 'cgm_de_fullcalendar/EventRenderer' {
   interface Default {
     designatedResource: any
     currentResource: any

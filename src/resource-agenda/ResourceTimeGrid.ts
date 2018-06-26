@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { TimeGrid } from '@medical-cloud/cgm_de_fullcalendar'
+import { TimeGrid } from 'cgm_de_fullcalendar'
 import { default as ResourceDayTableMixin, ResourceDayTableInterface } from '../component/ResourceDayTableMixin'
 import ResourceComponentFootprint from '../models/ResourceComponentFootprint'
 

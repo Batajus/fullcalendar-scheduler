@@ -17,8 +17,8 @@ function exec() {
   gutil.log('Computing TypeScript definitions file...')
   return generateDts({
     project: '.', // where the tsconfig is
-    name: '@medical-cloud/cgm_de_fullcalendar-scheduler',
-    main: '@medical-cloud/cgm_de_fullcalendar-scheduler/src/main',
+    name: 'cgm_de_fullcalendar-scheduler',
+    main: 'cgm_de_fullcalendar-scheduler/src/main',
     exclude: [
       'node_modules/**/*',
       'cgm_de_fullcalendar/**/*' // don't bake in the core defs

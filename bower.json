@@ -10,9 +10,11 @@
   "license": "SEE LICENSE IN LICENSE.md",
   "copyright": "2018 Adam Shaw",
   "dependencies": {
+    "cgm_de_fullcalendar": "^0.0.5"
+  },
+  "devDependencies": {
     "jquery": "2 - 3",
     "moment": "^2.20.1",
-    "cgm_de_fullcalendar": "^0.0.1"
   },
   "main": [
     "dist/cgm_de_scheduler.js",

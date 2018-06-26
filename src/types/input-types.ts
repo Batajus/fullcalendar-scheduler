@@ -1,5 +1,5 @@
 import * as moment from 'moment'
-import { BusinessHoursInput, EventOptionsBase } from '@medical-cloud/cgm_de_fullcalendar'
+import { BusinessHoursInput, EventOptionsBase } from 'cgm_de_fullcalendar'
 
 export interface ResourceInput {
   id?: string
@@ -22,7 +22,7 @@ export type ResourceFunctionCallback = (resources: ResourceInput[]) => void
 export type ResourceFunction = (callback: ResourceFunctionCallback, start: moment.Moment, end: moment.Moment, timezone: string) => void
 export type ResourceSourceInput = ResourceInput[] | ResourceFunction | ResourceComplexInput
 
-declare module '@medical-cloud/cgm_de_fullcalendar/src/types/input-types' {
+declare module 'cgm_de_fullcalendar/src/types/input-types' {
 
   interface DropInfo {
     resourceId?: string

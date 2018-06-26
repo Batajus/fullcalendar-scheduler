@@ -1,4 +1,4 @@
-import * as exportHooks from '@medical-cloud/cgm_de_fullcalendar'
+import * as exportHooks from 'cgm_de_fullcalendar'
 import * as schedulerExports from './exports'
 
 // imports solely for side-effects

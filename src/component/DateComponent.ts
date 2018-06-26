@@ -1,7 +1,7 @@
-import { DateComponent, EventFootprint } from '@medical-cloud/cgm_de_fullcalendar'
+import { DateComponent, EventFootprint } from 'cgm_de_fullcalendar'
 import ResourceComponentFootprint from '../models/ResourceComponentFootprint'
 
-declare module '@medical-cloud/cgm_de_fullcalendar/DateComponent' {
+declare module 'cgm_de_fullcalendar/DateComponent' {
   interface Default {
     isResourceFootprintsEnabled: boolean
     renderResources(resources)

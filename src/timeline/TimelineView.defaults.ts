@@ -1,6 +1,6 @@
 import * as $ from 'jquery'
 import * as moment from 'moment'
-import * as core from '@medical-cloud/cgm_de_fullcalendar'
+import * as core from 'cgm_de_fullcalendar'
 import TimelineView from './TimelineView'
 
 const MIN_AUTO_LABELS = 18 // more than `12` months but less that `24` hours

@@ -1,4 +1,4 @@
-import { EventResizing } from '@medical-cloud/cgm_de_fullcalendar'
+import { EventResizing } from 'cgm_de_fullcalendar'
 
 /*
 TODO: use pubsub instead?

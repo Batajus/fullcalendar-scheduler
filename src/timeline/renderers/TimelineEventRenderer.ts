@@ -1,4 +1,4 @@
-import { EventRenderer, htmlEscape, cssToStr } from '@medical-cloud/cgm_de_fullcalendar'
+import { EventRenderer, htmlEscape, cssToStr } from 'cgm_de_fullcalendar'
 import ScrollFollowerSprite from '../../util/ScrollFollowerSprite'
 
 

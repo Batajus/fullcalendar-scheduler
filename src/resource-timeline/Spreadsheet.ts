@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { htmlEscape, DragListener } from '@medical-cloud/cgm_de_fullcalendar'
+import { htmlEscape, DragListener } from 'cgm_de_fullcalendar'
 import ClippedScroller from '../util/ClippedScroller'
 import ScrollerCanvas from '../util/ScrollerCanvas'
 import ScrollJoiner from '../util/ScrollJoiner'

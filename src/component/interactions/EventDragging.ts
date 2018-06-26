@@ -1,4 +1,4 @@
-import { EventDragging, EventDefMutation } from '@medical-cloud/cgm_de_fullcalendar'
+import { EventDragging, EventDefMutation } from 'cgm_de_fullcalendar'
 
 // references to pre-monkeypatched methods
 const origMethods = {

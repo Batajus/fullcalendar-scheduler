@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { htmlEscape } from '@medical-cloud/cgm_de_fullcalendar'
+import { htmlEscape } from 'cgm_de_fullcalendar'
 import EventRow from './EventRow'
 
 /*

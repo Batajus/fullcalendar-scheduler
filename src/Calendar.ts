@@ -1,11 +1,11 @@
 import * as $ from 'jquery'
-import { Calendar, EventObjectInput } from '@medical-cloud/cgm_de_fullcalendar'
+import { Calendar, EventObjectInput } from 'cgm_de_fullcalendar'
 import Resource from './models/Resource'
 import ResourceManager from './models/ResourceManager'
 import ResourceComponentFootprint from './models/ResourceComponentFootprint'
 import { ResourceInput } from './types/input-types'
 
-declare module '@medical-cloud/cgm_de_fullcalendar/Calendar' {
+declare module 'cgm_de_fullcalendar/Calendar' {
   interface Default {
     resourceManager: any
     getResources(): ResourceInput[]

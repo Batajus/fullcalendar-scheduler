@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { Mixin, View } from '@medical-cloud/cgm_de_fullcalendar'
+import { Mixin, View } from 'cgm_de_fullcalendar'
 
 
 export interface ResourceViewInterface {

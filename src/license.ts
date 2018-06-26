@@ -1,6 +1,6 @@
 import * as $ from 'jquery'
 import * as moment from 'moment'
-import * as exportHooks from '@medical-cloud/cgm_de_fullcalendar'
+import * as exportHooks from 'cgm_de_fullcalendar'
 
 const RELEASE_DATE = '<%= releaseDate %>' // for Scheduler
 const UPGRADE_WINDOW = { years: 1, weeks: 1 } // 1 week leeway, for tz shift reasons too
